@@ -1,0 +1,170 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Visitor.master.cs" Inherits="Visitor" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+      <meta charset="utf-8" />
+    
+    <!-- Title Tag -->
+    <title>Message Transfer in Defence</title>
+<!--
+
+November Template
+     
+
+-->
+    <!-- <<Mobile Viewport Code>> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+            
+    <!-- <<Attched Stylesheets>> -->
+    <link rel="stylesheet" href="css/theme_m.css" type="text/css" />
+    <link rel="stylesheet" href="css/media.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder> 
+</head>
+<body>
+
+
+    
+<!-- \\ Begin Holder \\ -->
+<div class="DesignHolder">
+	<!-- \\ Begin Frame \\ -->
+	<div class="LayoutFrame">
+        <!-- \\ Begin Header \\ -->
+        <header>
+            <div class="Center">
+                <div class="site-logo">
+                	<h1><a href="Index.aspx">Message Transfer in<span>&nbsp; Defence</span></a></h1>
+                </div>
+               <div id="mobile_sec">
+               <div class="mobile"><i class="fa fa-bars"></i><i class="fa fa-times"></i></div>
+                <div class="menumobile">
+                    <!-- \\ Begin Navigation \\ -->
+                    <nav class="Navigation">
+                        <ul>
+                            <li class="active">                                
+                                <a href="Default.aspx">Home</a>
+                                <span class="menu-item-bg"></span>
+                            </li>
+                            <li>
+                                <a href="Default.aspx">About</a>
+                                <span class="menu-item-bg"></span>
+                            </li>
+                            <li>
+                                <a href="Default.aspx">Contact</a>
+                                <span class="menu-item-bg"></span>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- // End Navigation // -->
+				</div>
+				</div>
+                <div class="clear"></div>
+            </div>
+        </header>
+        <!-- // End Header // -->
+        <!-- \\ Begin Banner Section \\ -->
+        <div class="Banner_sec" id="home">
+            <!--  \\ Begin banner Side -->
+            <div class="bannerside">
+	            <div class="Center">
+                    
+                        <div class="rightside">
+                            
+                            
+                                                                 
+
+                                         
+                                                  
+                                            <div class="article">
+
+    
+                            <form id="frm_pg" runat="server">
+                                
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    
+ 
+
+                     </form>
+             
+
+                                </div>    
+                                            
+                                        
+
+                                    
+                                
+                            
+
+                        </div>
+
+
+
+                        <!--  // End Right Side // -->
+                    </div>
+            </div>
+            <!--  // End banner Side // -->
+            <div class="clear"></div>
+        </div>
+        <!-- // End Banner Section // -->
+         <div class="bgcolor"></div>
+        <!-- \\ Begin Container \\ -->
+        <div id="Container">
+            <!-- \\ Begin About Section \\ -->
+            <div class="About_sec" id="about">
+                <div class="Center">            	
+                     
+                    <!-- \\ Begin Tab side \\ -->
+                                       
+                    <!-- // End Tab Side // -->
+                </div>
+            </div>
+            <!-- // End About Section // -->
+        <!-- \\ Begin Services Section \\ -->
+        
+        <!-- // End Services Section // -->
+        <!-- \\ Begin Pricing Section \\ --> 
+        <!-- // End Pricing Section // -->
+        <!-- \\ Begin Contact Section \\ -->
+        <div class="Contact_sec" id="contact">
+             
+
+                
+                <!-- \\ Begin Get Section \\ -->
+            <div class="Get_sec">
+                 
+                <!-- \\ Begin Footer \\-->
+                <footer>
+                    <div class="Cntr">
+                        <p>COPYRIGHT © 2016 MESSAGETRANSFERINDEFENCE.COM &nbsp;&nbsp; DESIGN: <a rel="nofollow" href="#">Joseph John</a></p>
+                    </div>
+                </footer>
+                <!-- // End Footer // -->
+            </div>
+                <!-- // End Get Section // -->
+            
+            </div>
+            <!-- // End Contact Section // -->
+        </div>
+        <!-- // End Container // -->
+	</div>
+	<!-- // End Layout Frame // -->
+</div>
+<!-- // End Design Holder // -->
+ 
+
+<!-- <<Attched Javascripts>> -->
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.sudoSlider.min.js"></script>
+<script type="text/javascript" src="js/global.js"></script>
+<script type="text/javascript" src="js/modernizr.js"></script>
+
+</body>
+</html>
+
